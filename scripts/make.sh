@@ -24,7 +24,7 @@ function create {
     echo "Series (optional):"
     read series
 
-    url="https://dev.to/guionardo/$slug"
+    url="https://dev.to/carecone/$slug"
 
     json_tags=$(printf '%s\n' "${tags[@],,}" | jq -R . | jq -s .)
     tmp=$(
