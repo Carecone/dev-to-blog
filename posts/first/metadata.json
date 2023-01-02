@@ -1,0 +1,15 @@
+{
+    "article": {
+        "title": "Teste",
+        "published": true,
+        "body_markdown": "Hello DEV, this is my first post",
+        "tags": [
+            "discuss",
+            "help"
+        ],
+        "series": "Hello series",
+        "canonical_url": "https://dev.to/carecone/teste",
+        "main_image":"",
+        "description":""
+    }
+}
