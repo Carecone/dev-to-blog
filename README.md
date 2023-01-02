@@ -15,3 +15,4 @@ Currently: 1 posts
 ## History
 
 * Mon, 02 Jan 2023 00:35:38 +0000 Error creating post: # - 401 - {"error":"unauthorized","status":401}
+* Mon, 02 Jan 2023 00:47:16 +0000 Error creating post: # - 401 - {"error":"unauthorized","status":401}
