@@ -1,10 +1,11 @@
 {
-    "article": {
-        "title": "Teste",
-        "published": true,
-        "body_markdown": "in the file post.md",
-        "tags": [
-            "teste"
-        ]
-    }
+  "article": {
+    "title": "Teste",
+    "published": true,
+    "body_markdown": "in the file post.md",
+    "tags": [
+      "teste"
+    ],
+    "canonical_url": "https://dev.to//teste"
+  }
 }
