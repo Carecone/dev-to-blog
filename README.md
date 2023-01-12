@@ -1,8 +1,8 @@
 # Dev.to posts
 
-[![CI](https://github.com/carecone/dev-to-blog/actions/workflows/changed.yml/badge.svg)](https://github.com/carecone/dev-to-blog/actions/workflows/changed.yml)
+[![CI](https://github.com/guionardo/dev-to-blog/actions/workflows/changed.yml/badge.svg)](https://github.com/guionardo/dev-to-blog/actions/workflows/changed.yml)
 
-All posts are [here](https://dev.to/carecone)
+All posts are [here](https://dev.to/guionardo)
 
 Repository to automate post publishing into dev.to platform.
 
@@ -10,7 +10,7 @@ Repository to automate post publishing into dev.to platform.
 
 Currently: 1 posts
 
-* [Teste](https://dev.to/carecone/teste-3n0c)
+* [Hello, World 1!](https://dev.to/carecone/hello-world-1-59)
 
 ## History
 
@@ -20,3 +20,4 @@ Currently: 1 posts
 * Wed, 11 Jan 2023 20:19:29 +0000 Error creating post: # - 401 - {"error":"unauthorized","status":401}
 * Wed, 11 Jan 2023 20:39:17 +0000 Error creating post: # - 401 - {"error":"unauthorized","status":401}
 * Thu, 12 Jan 2023 23:52:03 +0000 Created post: # - [Teste](https://dev.to/carecone/teste)
+* Thu, 12 Jan 2023 23:57:23 +0000 Created post: # - [Hello, World 1!](https://dev.to/carecone/hello-world-1)
