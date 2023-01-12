@@ -3,3 +3,4 @@
 * Mon, 02 Jan 2023 00:49:45 +0000 Error creating post: # - 401 - {"error":"unauthorized","status":401}
 * Wed, 11 Jan 2023 20:19:29 +0000 Error creating post: # - 401 - {"error":"unauthorized","status":401}
 * Wed, 11 Jan 2023 20:39:17 +0000 Error creating post: # - 401 - {"error":"unauthorized","status":401}
+* Thu, 12 Jan 2023 23:52:03 +0000 Created post: # - [Teste](https://dev.to/carecone/teste)

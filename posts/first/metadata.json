@@ -5,6 +5,7 @@
     "body_markdown": "in the file post.md",
     "tags": [
       "teste"
-    ]
+    ],
+    "canonical_url": "https://dev.to/carecone/teste"
   }
 }
