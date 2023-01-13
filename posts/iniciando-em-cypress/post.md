@@ -1,4 +1,7 @@
 # Iniciando em cypress
+### O que é cypress?
+
+Cypress é um framework utilizado para automação de testes end to end. Atualmente, utiliza JavaScript como linguagem de programação e executa os testes em todos os navegadores. Vale ressaltar a possibilidade de automatizar Testes de API quanto Testes WEB.
 
 ### Instalação
 
