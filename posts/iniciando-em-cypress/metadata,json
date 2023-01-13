@@ -1,0 +1,12 @@
+{
+    "article": {
+        "title": "Iniciando em cypress!",
+        "published": true,
+        "body_markdown": "Artigo visando facilitar e ajudar pessoas iniciantes em automação.",
+        "tags": [
+            "cypress",
+            "test",
+            "automation"
+        ]
+    }
+}
