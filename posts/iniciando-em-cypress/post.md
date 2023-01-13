@@ -1,7 +1,7 @@
 # Iniciando em cypress
 
 ### Instalação
-'
+
 Node
 * Verificar se o npm está instalado corretamente, podendo verificar a versão instalada: npm -v.
 * Verificar a versão do node: node -v.
