@@ -34,7 +34,7 @@ Executar novamente, com o comando npm run test ou npx cypress open
 ### Pastas
 
 * fixtures: Utilizada para os arquivos de dados fixos, como mocks que serão utilizados nos testes.
-* integration: Utilizada para os arquivos de testes.
+* e2e: Utilizada para os arquivos de testes.
 * plugins: Utilizada para arquivos que eu posso criar/editar para modificar ou estender o comportamento interno no Cypress.
 * support: Utilizada para arquivos de importação e comandos personalizados que podemos criar dentro do Cypress.
 
