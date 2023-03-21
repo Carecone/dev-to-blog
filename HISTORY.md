@@ -3,3 +3,4 @@
 * Sun, 15 Jan 2023 12:01:26 +0000 Updated post: #1327355 - [Iniciando em cypress!](https://dev.to/carecone/iniciando-em-cypress-1boo)
 * Mon, 30 Jan 2023 01:57:44 +0000 Updated post: #1327355 - [Iniciando em cypress!](https://dev.to/carecone/iniciando-em-cypress-1boo)
 * Tue, 21 Mar 2023 18:51:06 +0000 Updated post: #1327355 - [Iniciando em cypress!](https://dev.to/carecone/iniciando-em-cypress-1boo)
+* Tue, 21 Mar 2023 19:06:54 +0000 Updated post: #1327355 - [Iniciando em cypress!](https://dev.to/carecone/iniciando-em-cypress-1boo)
