@@ -61,15 +61,6 @@ Executar novamente, com o comando npm run test ou npx cypress open
 * .request: responsável por estruturar e validar as requests.
 * .expect: responsável por realizar as validações.
 
-
-### Três As
-
-O teste geralmente é composto por três As, que é o arrange, o act e o assert
-
-* O arrange é a preparação do ambiente
-* O act é a ação que eu quero fazer
-* O assert é o que eu quero verificar
-
 ### Pacotes úteis
 mochawesome é um gerador de relatório personalizado. Com ele podemos fazer configurações, verificar se o log será gerado em html, json, onde será gerado, qual o formato de data para ser utilizado no nome, o título, dentre outros parâmetros
 
