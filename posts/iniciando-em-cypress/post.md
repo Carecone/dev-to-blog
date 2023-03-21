@@ -24,12 +24,10 @@ npm i cypress --save-dev
 
 Mesmo seguindo todas as configurações passo a passo, é comum em algumas máquinas ocorrer na primeira execução do Cypress o erro: “Command timed out after 30000 miliseconds”. Para isso, temos duas alternativas:
 
-1) Executar novamente, com o comando npm run test ou npx cypress open;
+1. Executar novamente, com o comando npm run test ou npx cypress open;
 
-2) Aumentar esse tempo de verificação no arquivo verify.js que fica no caminho: node_modules\cypress\lib\tasks
-Esse caminho está dentro da pasta node_modules\cypress\tasks e o nome do arquivo é verify.js
-Localize a constante VERIFY_TEST_RUNNER_TIMEOUT_MS e altere de 30000 para 100000;
-Executar novamente, com o comando npm run test ou npx cypress open
+2. Aumentar esse tempo de verificação na variável VERIFY_TEST_RUNNER_TIMEOUT_MS de 30000 para 100000 no arquivo verify.js que fica no caminho: node_modules\cypress\lib\tasks
+
 
 ### Pastas
 
@@ -105,21 +103,30 @@ Cypress.Commands.add('login', (nome, senha) => {
 
 ### Testes de API
 
-Também é possível realizar os testes de API, a sintaxe e as valições são bem tranquilas e parecidas as que temos no mercado.
-
+Também é possível realizar os testes de API, a sintaxe e as validações são bem tranquilas e parecidas com as que temos no mercado.
 ```bash
-   it('buscar fotos do flavio', () => {
-        cy.request({
-            method: 'GET',
-            url: 'https://apialurapic.herokuapp.com/flavio/photos',
-
-        }).then((res) => {
-            expect(res.status).to.be.equal(200)
-            expect(res.body).is.not.empty
-            expect(res.body[0]).to.have.property('description')
-            expect(res.body[0].description).to.be.equal('Farol iluminado')
-        })
-    })
+    addUser() {
+    return cy.request({
+      method: "POST",
+      url: "usuarios",
+      body: payloadAddUser,
+      failOnStatusCode: false,
+    });
+  }
+```
+```bash
+   it("Cadastrado com sucesso", () => {
+    Login.loginAdm().then((token) => {
+      POSTProduto.addProduct(token.body.authorization).then((response) => {
+        expect(response.status).to.eq(201);
+        expect(response.body.message).to.eq("Cadastro realizado com sucesso");
+        DELETEProduto.deleteProduct(
+          response.body._id,
+          token.body.authorization
+        );
+      });
+    });
+  })
 ```
 
 ### Proteger dados sensíveis 
@@ -143,7 +150,7 @@ type(senha, {log: false});
 ```
 stub: muito útil para 'mockar' um status esperado.
 ```bash
-cy.intercept('POST', `https://apialurapic.herokuapp.com/user/login`, {
+cy.intercept('POST', `https://serverest.dev/`, {
             statusCode: 400
         }).as('stubPost')
 adicionar wait no cenário(it) para que o teste aguarde a interceptação
